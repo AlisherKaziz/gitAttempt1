@@ -1,2 +1,3 @@
-print('Hello World!')
-print('For you')
+with open("README.txt", "r") as file:
+    for line in file:
+            print(line, end="")
